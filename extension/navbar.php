@@ -7,15 +7,14 @@
     color: #eeeeee;
     padding: 10px;
     border-radius: 10px;
-    top: 1rem;
   }
 
-  a {
+  #a.navbar {
     text-decoration: none;
     color: #eeeeee;
   }
 
-  h5 {
+  #h5-navbar {
     font-weight: normal;
   }
 </style>
@@ -30,33 +29,33 @@
       <div class="page-link justify-content-between">
         <div class="row gap-3 ms-1 mt-1">
           <div class="col home" style="border-bottom: 3px solid #76abae; color: #eeeeee">
-            <a href="#">
-              <h5>Home</h5>
+            <a id="a-navbar" href="#">
+              <h5 id="h5-navbar">Home</h5>
             </a>
           </div>
           <div class="col projects">
-            <a href="#">
-              <h5>Projects</h5>
+            <a id="a-navbar" href="#">
+              <h5 id="h5-navbar">Projects</h5>
             </a>
           </div>
           <div class="col skills">
-            <a href="#">
-              <h5>Skills</h5>
+            <a id="a-navbar" href="#">
+              <h5 id="h5-navbar">Skills</h5>
             </a>
           </div>
           <div class="col experience">
-            <a href="#">
-              <h5>Experience</h5>
+            <a id="a-navbar" href="#">
+              <h5 id="h5-navbar">Experience</h5>
             </a>
           </div>
           <div class="col education">
-            <a href="#">
-              <h5>Education</h5>
+            <a id="a-navbar" href="#">
+              <h5 id="h5-navbar">Education</h5>
             </a>
           </div>
           <div class="col contact">
-            <a href="#">
-              <h5>Contact</h5>
+            <a id="a-navbar" href="#">
+              <h5 id="h5-navbar">Contact</h5>
             </a>
           </div>
         </div>
