@@ -12,7 +12,7 @@
     color: #eeeeee;
     padding: 10px;
     border-radius: 10px;
-    top: 1rem;
+    top: 3rem;
   }
   
   #a-navbar {
@@ -97,11 +97,43 @@
   .html-skill h4,
   .css-skill h4,
   .bootstrap-skill h4,
-  .javascript-skill h4 {
-      color: #EEEEEE;
-      font-weight: normal;
+  .javascript-skill h4,
+  .php-skill h4,
+  .mysql-skill h4,
+  .react-skill h4,
+  .nodejs-skill h4,
+  .jquery-skill h4,
+  .git-skill h4,
+  .postgresql-skill h4{
+    color: #eeeeee;
+    font-weight: normal;
   }
   
-  .html-skill:hover {
-      transform: scale(1.30);
+  .html-skill,
+  .css-skill,
+  .bootstrap-skill,
+  .javascript-skill,
+  .php-skill,
+  .mysql-skill,
+  .react-skill,
+  .nodejs-skill,
+  .jquery-skill,
+  .git-skill,
+  .postgresql-skill {
+    transition: transform 0.3s ease; /* Adjust the duration and timing function as needed */
   }
+  
+  .html-skill:hover,
+  .css-skill:hover,
+  .bootstrap-skill:hover,
+  .javascript-skill:hover,
+  .php-skill:hover,
+  .mysql-skill:hover,
+  .react-skill:hover,
+  .nodejs-skill:hover,
+  .jquery-skill:hover,
+  .git-skill:hover,
+  .postgresql-skill:hover {
+    transform: scale(1.28);
+  }
+  
