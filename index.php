@@ -101,4 +101,6 @@
   <?php include ("script/bootstrap.php"); ?>
 </body>
 
+<!-- this code is a comment -->
+
 </html>
