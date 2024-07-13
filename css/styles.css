@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", sans-serif;
+  box-sizing: border-box;
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/mainPic.jpg");
+}
+
+#githubHover:hover,
+#linkedinHover:hover,
+#facebookHover:hover {
+  color: #76abae;
+  transition: 0.5s;
+}
+
+#vertical-line {
+  width: 6px;
+  height: 70px; /* Adjust the height as needed */
+  border-radius: 10px;
+  background-color: #76abae; /* Adjust the color as needed */
+}
+
+#projectCard {
+  background-color: #31363f;
+  padding: 10px;
+}
+
+#projectCard h3 {
+  color: #76abae;
+  font-weight: bolder;
+}
+
+#projectCard p {
+  color: #eeeeee;
+}
+
+#projectCard:hover {
+  background-color: #3e4451; /* Highlight color */
+}
+
+#github .btn {
+  border-color: #76abae;
+  color: #76abae;
+  border-radius: 50px;
+}
+
+#github .btn:hover {
+    transform: scale(1.05); /* Zoom out effect */
+}
+
+#LMSimg {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the specified area while maintaining aspect ratio */
+    border-radius: 10px; /* Optional: To match the border-radius of the card */
+}
+
+#ALUMNIimg {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the specified area while maintaining aspect ratio */
+    border-radius: 10px; /* Optional: To match the border-radius of the card */
+}

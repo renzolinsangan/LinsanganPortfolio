@@ -1,7 +1,7 @@
 <!-- BUILT-IN CSS -->
 <style>
   .navbar {
-    background-color: #222831;
+    background-color: #31363f;
     width: 52%;
     margin: 0 auto;
     color: #eeeeee;
