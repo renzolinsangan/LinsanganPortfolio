@@ -4,6 +4,21 @@
     font-family: "Georgia", sans-serif;
     box-sizing: border-box;
   }
+
+  #main-container {
+    overflow: hidden;
+  }
+
+  .section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
   
   .navbar {
     background-color: #31363f;
@@ -50,6 +65,12 @@
     height: 70px; /* Adjust the height as needed */
     border-radius: 10px;
     background-color: #76abae; /* Adjust the color as needed */
+  }
+
+  #borderLine {
+    height: 5px;
+    width: 10px;
+    border-bottom: 2px solid #76abae;
   }
   
   #projectCard {
@@ -104,7 +125,7 @@
   .nodejs-skill h4,
   .jquery-skill h4,
   .git-skill h4,
-  .postgresql-skill h4{
+  .postgresql-skill h4 {
     color: #eeeeee;
     font-weight: normal;
   }
@@ -137,3 +158,108 @@
     transform: scale(1.28);
   }
   
+  #firstExperience,
+  #secondExperience,
+  #thirdExperience {
+    background-color: #31363f;
+    padding: 10px;
+  }
+  
+  #firstExperience h4,
+  #secondExperience h4,
+  #thirdExperience h4 {
+    color: #76abae;
+  }
+  
+  #firstExperience p,
+  #firstExperience h5,
+  #secondExperience p,
+  #secondExperience h5,
+  #thirdExperience p,
+  #thirdExperience h5 {
+    color: #eeeeee;
+  }
+  
+  .vertical-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .vertical-container::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #76abae;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .circle-icon {
+    width: 65px;
+    height: 65px;
+    background-color: #76abae;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    border: 5px solid #eeeeee;
+    z-index: 1;
+  }
+  
+  #educationCard {
+    background-color: #31363f;
+    padding: 10px;
+  }
+
+  #educationCard:hover {
+    background-color: #3e4451; /* Highlight color */
+  }
+  
+  #educationCard h4,
+  #educationCard li,
+  #educationCard h5 {
+      color: #EEEEEE;
+  }
+
+  #email-card,
+  #phone-card,
+  #location-card {
+    background-color: #31363f;
+    padding: 10px;
+  }
+
+  #email-card:hover,
+  #phone-card:hover,
+  #location-card:hover {
+    background-color: #3e4451; /* Highlight color */
+  }
+
+  #email-card i,
+  #phone-card i,
+  #location-card i {
+    font-size: 90px;
+    color: #76abae;
+  }
+
+  #email-card h2,
+  #phone-card h2,
+  #location-card h2 {
+    letter-spacing: 5px;
+    color: #EEEEEE;
+  }
+
+  #email-card h5,
+  #phone-card h5,
+  #location-card h5 {
+    color: #76abae;
+  }
+
+  #contact-container {
+    margin-bottom: 15vh;
+  }
